@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Com.QA.EventListeners.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Com.QA.Tests.PagesTest">
+        <methods>
+          <include name="tear_down"/>
+          <include name="set_UP"/>
+          <include name="Register_Page_Url_Test"/>
+        </methods>
+      </class> <!-- Com.QA.Tests.PagesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

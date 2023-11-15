@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.745" tests="47" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\HP\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire2706672145361364528\surefirebooter-20231115121519343_3.jar C:\Users\HP\AppData\Local\Temp\surefire2706672145361364528 2023-11-15T12-15-18_629-jvmRun1 surefire-20231115121519343_1tmp surefire_0-20231115121519343_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork\target\test-classes;C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\HP\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\HP\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\HP\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\HP\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\HP\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\HP\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\HP\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire2706672145361364528\surefirebooter-20231115121519343_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\HP\OneDrive\Desktop\PlayWright\Selenium_NOP_Commerce_FrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\node_modules;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Android\Android Studio\bin;C:\Users\HP\.appium;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\OneDrive\Desktop\jar\sikuli1\sikuli1\libs;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Home_Page_Title_Test" classname="Com.QA.Tests.PagesTest" time="0.022">
+    <system-out><![CDATA[[INFO ] 2023-11-15 12:15:31.056 [main] PagesTest - Before Test Executed....
+Home_Page_Title_Test started!
+Home Page Title : nopCommerce demo store
+[INFO ] 2023-11-15 12:15:31.117 [main] PagesTest - Verifying Home Page Title...
+[INFO ] 2023-11-15 12:15:31.121 [main] PagesTest - Verifying Home Page Title success...
+Home_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.017">
+    <system-out><![CDATA[Home_Page_Url_Test started!
+Home Page url : https://demo.nopcommerce.com/
+[INFO ] 2023-11-15 12:15:31.154 [main] PagesTest - Verifying Home Page Url...
+[INFO ] 2023-11-15 12:15:31.155 [main] PagesTest - Verifying Home Page url successs...
+Home_Page_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Header_Links_Test" classname="Com.QA.Tests.PagesTest" time="0.331">
+    <system-out><![CDATA[Home_Page_Header_Links_Test started!
+Computers
+
+
+
+Electronics
+
+
+
+Apparel
+
+
+
+Digital downloads
+Books
+Jewelry
+Gift Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home Page Header links : 32
+[INFO ] 2023-11-15 12:15:31.483 [main] PagesTest - Verifying Home Page Header links...
+[INFO ] 2023-11-15 12:15:31.483 [main] PagesTest - Verifying Home Page Header links Success...
+Home_Page_Header_Links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_footer_Links_Test" classname="Com.QA.Tests.PagesTest" time="0.19">
+    <system-out><![CDATA[Home_Page_footer_Links_Test started!
+Sitemap
+Shipping & returns
+Privacy notice
+Conditions of Use
+About us
+Contact us
+Search
+News
+Blog
+Recently viewed products
+Compare products list
+New products
+My account
+Orders
+Addresses
+Shopping cart
+Wishlist
+Apply for vendor account
+Facebook
+Twitter
+RSS
+YouTube
+Home Page Footer links : 22
+[INFO ] 2023-11-15 12:15:31.653 [main] PagesTest - Verifying Home Page Footer links...
+[INFO ] 2023-11-15 12:15:31.654 [main] PagesTest - Verifying Home Page Footer links Success...
+Home_Page_footer_Links_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Products_Test" classname="Com.QA.Tests.PagesTest" time="0.01">
+    <system-out><![CDATA[Home_Page_Products_Test started!
+Home Page products : 4
+[INFO ] 2023-11-15 12:15:31.668 [main] PagesTest - Verifying Home Page Products...
+[INFO ] 2023-11-15 12:15:31.668 [main] PagesTest - Verifying Home Page Products Success...
+Home_Page_Products_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Products_Title_Test" classname="Com.QA.Tests.PagesTest" time="0.026">
+    <system-out><![CDATA[Home_Page_Products_Title_Test started!
+Build your own computer
+Apple MacBook Pro 13-inch
+HTC One M8 Android L 5.0 Lollipop
+$25 Virtual Gift Card
+[INFO ] 2023-11-15 12:15:31.718 [main] PagesTest - Verifying Home Page Products Title...
+Home_Page_Products_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Logo_Test" classname="Com.QA.Tests.PagesTest" time="0.07">
+    <system-out><![CDATA[Home_Page_Logo_Test started!
+
+Home Page logo : true
+[INFO ] 2023-11-15 12:15:31.778 [main] PagesTest - Verifying Home Page logo...
+[INFO ] 2023-11-15 12:15:31.778 [main] PagesTest - Verifying Home Page logo Success...
+Home_Page_Logo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Page_Customer_Currency_Test" classname="Com.QA.Tests.PagesTest" time="0.032">
+    <system-out><![CDATA[Home_Page_Customer_Currency_Test started!
+US Dollar
+Euro
+Home Page customer Currency : 2
+[INFO ] 2023-11-15 12:15:31.823 [main] PagesTest - verifying home page Customer Currency
+[INFO ] 2023-11-15 12:15:31.823 [main] PagesTest - verifying home page Customer Currency Sucess...
+Home_Page_Customer_Currency_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Register_Page_Title_Test" classname="Com.QA.Tests.PagesTest" time="1.609">
+    <system-out><![CDATA[Register_Page_Title_Test started!
+Register Page Title : nopCommerce demo store. Register
+[INFO ] 2023-11-15 12:15:33.433 [main] PagesTest - verifying Register page Title
+[INFO ] 2023-11-15 12:15:33.433 [main] PagesTest - verifying Register page Title sucess...
+Register_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Register_Page_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.004">
+    <system-out><![CDATA[Register_Page_Url_Test started!
+Register Page url : https://demo.nopcommerce.com/register?returnUrl=%2F
+[INFO ] 2023-11-15 12:15:33.448 [main] PagesTest - Verifying Register Page Url....
+[INFO ] 2023-11-15 12:15:33.448 [main] PagesTest - Verifying Register Page Url Success....
+Register_Page_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Register_Page_Register1_Test" classname="Com.QA.Tests.PagesTest" time="2.051">
+    <system-out><![CDATA[Register_Page_Register1_Test started!
+[INFO ] 2023-11-15 12:15:35.514 [main] PagesTest - Verifying Register Page Registration....
+Register_Page_Register1_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Register_Page_Register2_Test" classname="Com.QA.Tests.PagesTest" time="1.604">
+    <system-out><![CDATA[Register_Page_Register2_Test started!
+bnjbyiltusa
+bnjbyiltusa
+[INFO ] 2023-11-15 12:15:37.112 [main] PagesTest - Verifying Register Page Registration....
+Register_Page_Register2_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Click_on_Login_Test" classname="Com.QA.Tests.PagesTest" time="0.646">
+    <system-out><![CDATA[Click_on_Login_Test started!
+[INFO ] 2023-11-15 12:15:37.761 [main] PagesTest - Verifying Register Page Registration....
+Click_on_Login_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_LoginPage_title_Test" classname="Com.QA.Tests.PagesTest" time="0.024">
+    <system-out><![CDATA[Verify_LoginPage_title_Test started!
+Login Page Title : nopCommerce demo store. Login
+[INFO ] 2023-11-15 12:15:37.774 [main] PagesTest - Verifying Login Page Title....
+[INFO ] 2023-11-15 12:15:37.774 [main] PagesTest - Verifying Login Page Title Success....
+Verify_LoginPage_title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_LoginPage_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.004">
+    <system-out><![CDATA[Verify_LoginPage_Url_Test started!
+Login Page Url : https://demo.nopcommerce.com/login?returnUrl=%2F
+[INFO ] 2023-11-15 12:15:37.790 [main] PagesTest - Verifying Login Page Url....
+[INFO ] 2023-11-15 12:15:37.792 [main] PagesTest - Verifying Login Page Url Success....
+Verify_LoginPage_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_LoginPage_Texts_Test" classname="Com.QA.Tests.PagesTest" time="0.075">
+    <system-out><![CDATA[Verify_LoginPage_Texts_Test started!
+Welcome, Please Sign In!
+Login Page Texts : true
+[INFO ] 2023-11-15 12:15:37.879 [main] PagesTest - Verifying Login Page Texts....
+[INFO ] 2023-11-15 12:15:37.880 [main] PagesTest - Verifying Login Page Texts Success....
+Verify_LoginPage_Texts_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_LoginPage_Info_Test" classname="Com.QA.Tests.PagesTest" time="0.042">
+    <system-out><![CDATA[Verify_LoginPage_Info_Test started!
+By creating an account on our website, you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+Login Page info : true
+[INFO ] 2023-11-15 12:15:37.915 [main] PagesTest - Verifying Login Page Info....
+[INFO ] 2023-11-15 12:15:37.915 [main] PagesTest - Verifying Login Page Info Success....
+Verify_LoginPage_Info_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_LoginPage_Login_Action_Test" classname="Com.QA.Tests.PagesTest" time="1.109">
+    <system-out><![CDATA[Verify_LoginPage_Login_Action_Test started!
+[INFO ] 2023-11-15 12:15:39.039 [main] PagesTest - Verifying Login Page Action....
+Verify_LoginPage_Login_Action_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Title" classname="Com.QA.Tests.PagesTest" time="1.185">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Title started!
+Add to cart title : nopCommerce demo store. Apple MacBook Pro 13-inch
+[INFO ] 2023-11-15 12:15:40.226 [main] PagesTest - Verifying AddToCart Page Title....
+[INFO ] 2023-11-15 12:15:40.227 [main] PagesTest - Verifying AddToCart Page Title Success....
+Verify_Add_TO_Cart_Title passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Url" classname="Com.QA.Tests.PagesTest" time="0.005">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Url started!
+Add to cart url : https://demo.nopcommerce.com/apple-macbook-pro-13-inch
+[INFO ] 2023-11-15 12:15:40.239 [main] PagesTest - Verifying AddToCart Page Url....
+[INFO ] 2023-11-15 12:15:40.239 [main] PagesTest - Verifying AddToCart Page Url Success....
+Verify_Add_TO_Cart_Url passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Product_Name" classname="Com.QA.Tests.PagesTest" time="0.031">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Product_Name started!
+Add to cart ProductName : Apple MacBook Pro 13-inch
+[INFO ] 2023-11-15 12:15:40.259 [main] PagesTest - Verifying AddToCart Page ProductName....
+[INFO ] 2023-11-15 12:15:40.260 [main] PagesTest - Verifying AddToCart Page ProductName Sucess....
+Verify_Add_TO_Cart_Product_Name passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Product_Desciption" classname="Com.QA.Tests.PagesTest" time="0.012">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Product_Desciption started!
+-----------------Product Desciption------------------------
+A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create.
+-----------------Product Desciption------------------------
+[INFO ] 2023-11-15 12:15:40.289 [main] PagesTest - Verifying AddToCart Page Product Description....
+[INFO ] 2023-11-15 12:15:40.289 [main] PagesTest - Verifying AddToCart Page Product Description suceess....
+Verify_Add_TO_Cart_Product_Desciption passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Product_Price" classname="Com.QA.Tests.PagesTest" time="0.034">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Product_Price started!
+$1,800.00
+Add to cart Price : true
+[INFO ] 2023-11-15 12:15:40.330 [main] PagesTest - Verifying AddToCart Page Product Price....
+[INFO ] 2023-11-15 12:15:40.330 [main] PagesTest - Verifying AddToCart Page Product Price Success....
+Verify_Add_TO_Cart_Product_Price passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Product_Full_Descirpition" classname="Com.QA.Tests.PagesTest" time="0.072">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Product_Full_Descirpition started!
+With fifth-generation Intel Core processors, the latest graphics, and faster flash storage, the incredibly advanced MacBook Pro with Retina display moves even further ahead in performance and battery life.* *Compared with the previous generation.
+Retina display with 2560-by-1600 resolution
+Fifth-generation dual-core Intel Core i5 processor
+Intel Iris Graphics
+Up to 9 hours of battery life1
+Faster flash storage2
+802.11ac Wi-Fi
+Two Thunderbolt 2 ports for connecting high-performance devices and transferring data at lightning speed
+Two USB 3 ports (compatible with USB 2 devices) and HDMI
+FaceTime HD camera
+Pages, Numbers, Keynote, iPhoto, iMovie, GarageBand included
+OS X, the world's most advanced desktop operating system
+-----------------Product Desciption------------------------
+true
+-----------------Product Desciption------------------------
+[INFO ] 2023-11-15 12:15:40.391 [main] PagesTest - Verifying AddToCart Page Product Full Description....
+[INFO ] 2023-11-15 12:15:40.392 [main] PagesTest - Verifying AddToCart Page Product Full Description Success....
+Verify_Add_TO_Cart_Product_Full_Descirpition passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Add_TO_Cart_Product_Specification" classname="Com.QA.Tests.PagesTest" time="1.933">
+    <system-out><![CDATA[Verify_Add_TO_Cart_Product_Specification started!
+Attribute name
+Attribute value
+-----------------Product Specification------------------------
+true
+-----------------Product Desciption------------------------
+[INFO ] 2023-11-15 12:15:42.333 [main] PagesTest - Verifying AddToCart Page Product Specification....
+[INFO ] 2023-11-15 12:15:42.333 [main] PagesTest - Verifying AddToCart Page Product Specification Success....
+Verify_Add_TO_Cart_Product_Specification passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Product_In_Cart_Test" classname="Com.QA.Tests.PagesTest" time="0.04">
+    <system-out><![CDATA[Verify_shoppingCart_Product_In_Cart_Test started!
+Product in Cart : true
+[INFO ] 2023-11-15 12:15:42.390 [main] PagesTest - Verifying ShoppingCart Page Product in Cart....
+[INFO ] 2023-11-15 12:15:42.390 [main] PagesTest - Verifying ShoppingCart Page Product in Cart Success....
+Verify_shoppingCart_Product_In_Cart_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Title_Test" classname="Com.QA.Tests.PagesTest" time="0.016">
+    <system-out><![CDATA[Verify_shoppingCart_Title_Test started!
+ShoppingCart title : nopCommerce demo store. Shopping Cart
+[INFO ] 2023-11-15 12:15:42.396 [main] PagesTest - Verifying ShoppingCart Page Title....
+[INFO ] 2023-11-15 12:15:42.396 [main] PagesTest - Verifying ShoppingCart Page Title Success....
+Verify_shoppingCart_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Product_Name_Test" classname="Com.QA.Tests.PagesTest" time="0.011">
+    <system-out><![CDATA[Verify_shoppingCart_Product_Name_Test started!
+Product Name : Apple MacBook Pro 13-inch
+[INFO ] 2023-11-15 12:15:42.420 [main] PagesTest - Verifying ShoppingCart Page Product Name....
+[INFO ] 2023-11-15 12:15:42.420 [main] PagesTest - Verifying ShoppingCart Page Product Name Success....
+Verify_shoppingCart_Product_Name_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.004">
+    <system-out><![CDATA[Verify_shoppingCart_Url_Test started!
+ShoppingCart url : https://demo.nopcommerce.com/cart
+[INFO ] 2023-11-15 12:15:42.426 [main] PagesTest - Verifying ShoppingCart Page Url....
+[INFO ] 2023-11-15 12:15:42.426 [main] PagesTest - Verifying ShoppingCart Page Url Success....
+Verify_shoppingCart_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Gift_Test" classname="Com.QA.Tests.PagesTest" time="0.017">
+    <system-out><![CDATA[Verify_shoppingCart_Gift_Test started!
+[INFO ] 2023-11-15 12:15:42.452 [main] PagesTest - Verifying ShoppingCart Page Product Gift Wrapping....
+Verify_shoppingCart_Gift_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Toatl_Test" classname="Com.QA.Tests.PagesTest" time="0.123">
+    <system-out><![CDATA[Verify_shoppingCart_Toatl_Test started!
+Sub-Total: $3,600.00
+Shipping: $0.00
+Tax: $0.00
+Total: $3,600.00
+You will earn: 360 points
+[INFO ] 2023-11-15 12:15:42.574 [main] PagesTest - Verifying ShoppingCart Page Product Total table....
+Verify_shoppingCart_Toatl_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_shoppingCart_Checout_Test" classname="Com.QA.Tests.PagesTest" time="2.193">
+    <system-out><![CDATA[Verify_shoppingCart_Checout_Test started!
+[INFO ] 2023-11-15 12:15:44.773 [main] PagesTest - Verifying ShoppingCart Page Click on Checkout....
+Verify_shoppingCart_Checout_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Address_Page_Title_Test" classname="Com.QA.Tests.PagesTest" time="0.021">
+    <system-out><![CDATA[Verify_Address_Page_Title_Test started!
+Address Page Title : nopCommerce demo store. Checkout
+[INFO ] 2023-11-15 12:15:44.783 [main] PagesTest - Verifying Address Page title....
+[INFO ] 2023-11-15 12:15:44.784 [main] PagesTest - Verifying Address Page title Success....
+Verify_Address_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Address_Page_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.009">
+    <system-out><![CDATA[Verify_Address_Page_Url_Test started!
+Address Page Url : https://demo.nopcommerce.com/onepagecheckout#opc-billing
+[INFO ] 2023-11-15 12:15:44.793 [main] PagesTest - Verifying Address Page Url....
+[INFO ] 2023-11-15 12:15:44.794 [main] PagesTest - Verifying Address Page Url Success....
+Verify_Address_Page_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Address_Page_logo_Test" classname="Com.QA.Tests.PagesTest" time="0.044">
+    <system-out><![CDATA[Verify_Address_Page_logo_Test started!
+Adddress Page Logo : Checkout
+Address Page Logo : true
+[INFO ] 2023-11-15 12:15:44.854 [main] PagesTest - Verifying Address Page Logo....
+[INFO ] 2023-11-15 12:15:44.854 [main] PagesTest - Verifying Address Page Logo Success....
+Verify_Address_Page_logo_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Address_Page_Data_Test[LosAngeles, Texas, Street2, &quot;879878a&quot;, &quot;32438898&quot;, &quot;243989&quot;](1)" classname="Com.QA.Tests.PagesTest" time="1.165">
+    <system-out><![CDATA[Verify_Address_Page_Data_Test started!
+[INFO ] 2023-11-15 12:15:46.733 [main] PagesTest - Verifying Address Page Sending Data....
+Verify_Address_Page_Data_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Title_Test" classname="Com.QA.Tests.PagesTest" time="0.019">
+    <system-out><![CDATA[Payment_Page_Title_Test started!
+Payement title : nopCommerce demo store. Checkout
+[INFO ] 2023-11-15 12:15:46.771 [main] PagesTest - Verifying Payment Page Title....
+[INFO ] 2023-11-15 12:15:46.773 [main] PagesTest - Verifying Payment Page Title Success....
+Payment_Page_Title_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Url_Test" classname="Com.QA.Tests.PagesTest" time="0.004">
+    <system-out><![CDATA[Payment_Page_Url_Test started!
+Payement url : https://demo.nopcommerce.com/onepagecheckout#opc-billing
+[INFO ] 2023-11-15 12:15:46.792 [main] PagesTest - Verifying Payment Page Url....
+[INFO ] 2023-11-15 12:15:46.793 [main] PagesTest - Verifying Payment Page Url Success....
+Payment_Page_Url_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Shiping_Methods_Test" classname="Com.QA.Tests.PagesTest" time="0.206">
+    <system-out><![CDATA[Payment_Page_Shiping_Methods_Test started!
+Ground ($0.00)
+Shipping by land transport
+Next Day Air ($0.00)
+The one day air shipping
+2nd Day Air ($0.00)
+The two day air shipping
+[INFO ] 2023-11-15 12:15:47.003 [main] PagesTest - Verifying Payment Shipping Methods....
+Payment_Page_Shiping_Methods_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Shiping_Methods_Continue_Test" classname="Com.QA.Tests.PagesTest" time="0.238">
+    <system-out><![CDATA[Payment_Page_Shiping_Methods_Continue_Test started!
+[INFO ] 2023-11-15 12:15:47.235 [main] PagesTest - Verifying Payment Page Click on shipping Continue....
+Payment_Page_Shiping_Methods_Continue_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Payments_Methods_Test" classname="Com.QA.Tests.PagesTest" time="0.251">
+    <system-out><![CDATA[Payment_Page_Payments_Methods_Test started!
+Check / Money Order
+Pay by cheque or money order
+Credit Card
+Pay by credit / debit card
+[INFO ] 2023-11-15 12:15:47.503 [main] PagesTest - Verifying Payment Page Payment Methods....
+Payment_Page_Payments_Methods_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Payments_Methods_Continue_Test" classname="Com.QA.Tests.PagesTest" time="0.257">
+    <system-out><![CDATA[Payment_Page_Payments_Methods_Continue_Test started!
+[INFO ] 2023-11-15 12:15:47.739 [main] PagesTest - Verifying Payment Page payment Continue....
+Payment_Page_Payments_Methods_Continue_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Payments_Information_Test" classname="Com.QA.Tests.PagesTest" time="0.45">
+    <system-out><![CDATA[Payment_Page_Payments_Information_Test started!
+Mail Personal or Business Check, Cashier's Check or money order to:
+NOP SOLUTIONS
+your address here,
+New York, NY 10001
+USA
+Notice that if you pay by Personal or Business Check, your order may be held for up to 10 days after we receive your check to allow enough time for the check to clear. If you want us to ship faster upon receipt of your payment, then we recommend your send a money order or Cashier's check.
+P.S. You can edit this text from admin panel.
+Payment information count : 4
+4
+[INFO ] 2023-11-15 12:15:48.211 [main] PagesTest - Verifying Payment Page Payment Information....
+[INFO ] 2023-11-15 12:15:48.213 [main] PagesTest - Verifying Payment Page Payment Information Success....
+Payment_Page_Payments_Information_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Billing_Address_Test" classname="Com.QA.Tests.PagesTest" time="0.225">
+    <system-out><![CDATA[Payment_Page_Billing_Address_Test started!
+Scott Smith
+Email: veta.bergstrom@example.com
+Phone: "32438898"
+Fax: "243989"
+TXC_CORP
+Texas
+Street2
+LosAngeles,"879878a"
+Belize
+Billing Info count : 9
+9
+[INFO ] 2023-11-15 12:15:48.454 [main] PagesTest - Verifying Payment Page Billing Address....
+[INFO ] 2023-11-15 12:15:48.454 [main] PagesTest - Verifying Payment Page Billing Address Success....
+Payment_Page_Billing_Address_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Shipping_Address_Test" classname="Com.QA.Tests.PagesTest" time="0.064">
+    <system-out><![CDATA[Payment_Page_Shipping_Address_Test started!
+Scott Smith
+Email: veta.bergstrom@example.com
+Phone: "32438898"
+Fax: "243989"
+TXC_CORP
+Texas
+Street2
+LosAngeles,"879878a"
+Belize
+Shipping Address count : 9
+9
+[INFO ] 2023-11-15 12:15:48.513 [main] PagesTest - Verifying Payment Page Shipping Address....
+[INFO ] 2023-11-15 12:15:48.513 [main] PagesTest - Verifying Payment Page Shipping Address Success....
+Payment_Page_Shipping_Address_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Final_Table_Test" classname="Com.QA.Tests.PagesTest" time="0.295">
+    <system-out><![CDATA[Payment_Page_Final_Table_Test started!
+Sub-Total: $3,600.00
+Shipping: (Ground) $0.00
+Tax: $0.00
+Total: $3,600.00
+You will earn: 360 points
+[INFO ] 2023-11-15 12:15:48.815 [main] PagesTest - Verifying Payment Page Final Table....
+Payment_Page_Final_Table_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Page_Order_Numberr_Test" classname="Com.QA.Tests.PagesTest" time="0.824">
+    <system-out><![CDATA[Payment_Page_Order_Numberr_Test started!
+Your order has been successfully processed!
+Order Number : ORDER NUMBER: 1034
+[INFO ] 2023-11-15 12:15:49.609 [main] PagesTest - Verifying Payment Page Order Number....
+[INFO ] 2023-11-15 12:15:49.655 [main] PagesTest - Verifying Payment Page Order Number Matched....
+Payment_Page_Order_Numberr_Test passed!
+]]></system-out>
+  </testcase>
+</testsuite>

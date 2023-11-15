@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="47" passed="47" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T10:58:33 IST" name="Suite" finished-at="2023-11-15T10:59:01 IST" duration-ms="27985">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T10:58:33 IST" name="Test" finished-at="2023-11-15T10:59:01 IST" duration-ms="27985">
+      <class name="Com.QA.Tests.PagesTest">
+        <test-method is-config="true" signature="set_UP()[pri:0, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:33 IST" name="set_UP" finished-at="2023-11-15T10:58:41 IST" duration-ms="8241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_UP -->
+        <test-method signature="Home_Page_Title_Test()[pri:1, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:41 IST" name="Home_Page_Title_Test" finished-at="2023-11-15T10:58:41 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Title_Test -->
+        <test-method signature="Home_Page_Url_Test()[pri:2, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:41 IST" name="Home_Page_Url_Test" finished-at="2023-11-15T10:58:41 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Url_Test -->
+        <test-method signature="Home_Page_Header_Links_Test()[pri:3, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:41 IST" name="Home_Page_Header_Links_Test" finished-at="2023-11-15T10:58:41 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Header_Links_Test -->
+        <test-method signature="Home_Page_footer_Links_Test()[pri:4, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:41 IST" name="Home_Page_footer_Links_Test" finished-at="2023-11-15T10:58:42 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_footer_Links_Test -->
+        <test-method signature="Home_Page_Products_Test()[pri:5, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:42 IST" name="Home_Page_Products_Test" finished-at="2023-11-15T10:58:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Products_Test -->
+        <test-method signature="Home_Page_Products_Title_Test()[pri:6, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:42 IST" name="Home_Page_Products_Title_Test" finished-at="2023-11-15T10:58:42 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Products_Title_Test -->
+        <test-method signature="Home_Page_Logo_Test()[pri:7, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:42 IST" name="Home_Page_Logo_Test" finished-at="2023-11-15T10:58:42 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Logo_Test -->
+        <test-method signature="Home_Page_Customer_Currency_Test()[pri:8, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:42 IST" name="Home_Page_Customer_Currency_Test" finished-at="2023-11-15T10:58:42 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Customer_Currency_Test -->
+        <test-method signature="Register_Page_Title_Test()[pri:9, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:42 IST" name="Register_Page_Title_Test" finished-at="2023-11-15T10:58:43 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Page_Title_Test -->
+        <test-method signature="Register_Page_Url_Test()[pri:10, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:43 IST" name="Register_Page_Url_Test" finished-at="2023-11-15T10:58:43 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Page_Url_Test -->
+        <test-method signature="Register_Page_Register1_Test()[pri:11, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:43 IST" name="Register_Page_Register1_Test" finished-at="2023-11-15T10:58:45 IST" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Page_Register1_Test -->
+        <test-method signature="Register_Page_Register2_Test()[pri:12, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:45 IST" name="Register_Page_Register2_Test" finished-at="2023-11-15T10:58:47 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Page_Register2_Test -->
+        <test-method signature="Click_on_Login_Test()[pri:13, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:47 IST" name="Click_on_Login_Test" finished-at="2023-11-15T10:58:48 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_on_Login_Test -->
+        <test-method signature="Verify_LoginPage_title_Test()[pri:14, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:48 IST" name="Verify_LoginPage_title_Test" finished-at="2023-11-15T10:58:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginPage_title_Test -->
+        <test-method signature="Verify_LoginPage_Url_Test()[pri:15, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:48 IST" name="Verify_LoginPage_Url_Test" finished-at="2023-11-15T10:58:48 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginPage_Url_Test -->
+        <test-method signature="Verify_LoginPage_Texts_Test()[pri:16, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:48 IST" name="Verify_LoginPage_Texts_Test" finished-at="2023-11-15T10:58:48 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginPage_Texts_Test -->
+        <test-method signature="Verify_LoginPage_Info_Test()[pri:17, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:48 IST" name="Verify_LoginPage_Info_Test" finished-at="2023-11-15T10:58:48 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginPage_Info_Test -->
+        <test-method signature="Verify_LoginPage_Login_Action_Test()[pri:18, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:48 IST" name="Verify_LoginPage_Login_Action_Test" finished-at="2023-11-15T10:58:49 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginPage_Login_Action_Test -->
+        <test-method signature="Verify_Add_TO_Cart_Title()[pri:19, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:49 IST" name="Verify_Add_TO_Cart_Title" finished-at="2023-11-15T10:58:50 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Title -->
+        <test-method signature="Verify_Add_TO_Cart_Url()[pri:20, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:50 IST" name="Verify_Add_TO_Cart_Url" finished-at="2023-11-15T10:58:50 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Url -->
+        <test-method signature="Verify_Add_TO_Cart_Product_Name()[pri:21, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:50 IST" name="Verify_Add_TO_Cart_Product_Name" finished-at="2023-11-15T10:58:50 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Product_Name -->
+        <test-method signature="Verify_Add_TO_Cart_Product_Desciption()[pri:22, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:50 IST" name="Verify_Add_TO_Cart_Product_Desciption" finished-at="2023-11-15T10:58:50 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Product_Desciption -->
+        <test-method signature="Verify_Add_TO_Cart_Product_Price()[pri:23, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:50 IST" name="Verify_Add_TO_Cart_Product_Price" finished-at="2023-11-15T10:58:50 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Product_Price -->
+        <test-method signature="Verify_Add_TO_Cart_Product_Full_Descirpition()[pri:24, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:50 IST" name="Verify_Add_TO_Cart_Product_Full_Descirpition" finished-at="2023-11-15T10:58:51 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Product_Full_Descirpition -->
+        <test-method signature="Verify_Add_TO_Cart_Product_Specification()[pri:25, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:51 IST" name="Verify_Add_TO_Cart_Product_Specification" finished-at="2023-11-15T10:58:52 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Add_TO_Cart_Product_Specification -->
+        <test-method signature="Verify_shoppingCart_Product_In_Cart_Test()[pri:26, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Product_In_Cart_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Product_In_Cart_Test -->
+        <test-method signature="Verify_shoppingCart_Title_Test()[pri:26, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Title_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Title_Test -->
+        <test-method signature="Verify_shoppingCart_Product_Name_Test()[pri:27, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Product_Name_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Product_Name_Test -->
+        <test-method signature="Verify_shoppingCart_Url_Test()[pri:27, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Url_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Url_Test -->
+        <test-method signature="Verify_shoppingCart_Gift_Test()[pri:28, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Gift_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Gift_Test -->
+        <test-method signature="Verify_shoppingCart_Toatl_Test()[pri:29, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Toatl_Test" finished-at="2023-11-15T10:58:52 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Toatl_Test -->
+        <test-method signature="Verify_shoppingCart_Checout_Test()[pri:30, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:52 IST" name="Verify_shoppingCart_Checout_Test" finished-at="2023-11-15T10:58:54 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingCart_Checout_Test -->
+        <test-method signature="Verify_Address_Page_Title_Test()[pri:31, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:54 IST" name="Verify_Address_Page_Title_Test" finished-at="2023-11-15T10:58:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Address_Page_Title_Test -->
+        <test-method signature="Verify_Address_Page_Url_Test()[pri:32, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:54 IST" name="Verify_Address_Page_Url_Test" finished-at="2023-11-15T10:58:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Address_Page_Url_Test -->
+        <test-method signature="Verify_Address_Page_logo_Test()[pri:32, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:54 IST" name="Verify_Address_Page_logo_Test" finished-at="2023-11-15T10:58:54 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Address_Page_logo_Test -->
+        <test-method signature="Verify_Address_Page_Data_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:33, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:55 IST" name="Verify_Address_Page_Data_Test" data-provider="getData" finished-at="2023-11-15T10:58:56 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LosAngeles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Texas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Street2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA["879878a"]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["32438898"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["243989"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Address_Page_Data_Test -->
+        <test-method signature="Payment_Page_Title_Test()[pri:34, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:56 IST" name="Payment_Page_Title_Test" finished-at="2023-11-15T10:58:56 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Title_Test -->
+        <test-method signature="Payment_Page_Url_Test()[pri:35, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:56 IST" name="Payment_Page_Url_Test" finished-at="2023-11-15T10:58:56 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Url_Test -->
+        <test-method signature="Payment_Page_Shiping_Methods_Test()[pri:36, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:56 IST" name="Payment_Page_Shiping_Methods_Test" finished-at="2023-11-15T10:58:56 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Shiping_Methods_Test -->
+        <test-method signature="Payment_Page_Shiping_Methods_Continue_Test()[pri:37, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:56 IST" name="Payment_Page_Shiping_Methods_Continue_Test" finished-at="2023-11-15T10:58:57 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Shiping_Methods_Continue_Test -->
+        <test-method signature="Payment_Page_Payments_Methods_Test()[pri:38, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:57 IST" name="Payment_Page_Payments_Methods_Test" finished-at="2023-11-15T10:58:57 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Payments_Methods_Test -->
+        <test-method signature="Payment_Page_Payments_Methods_Continue_Test()[pri:39, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:57 IST" name="Payment_Page_Payments_Methods_Continue_Test" finished-at="2023-11-15T10:58:57 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Payments_Methods_Continue_Test -->
+        <test-method signature="Payment_Page_Payments_Information_Test()[pri:40, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:57 IST" name="Payment_Page_Payments_Information_Test" finished-at="2023-11-15T10:58:58 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Payments_Information_Test -->
+        <test-method signature="Payment_Page_Billing_Address_Test()[pri:41, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:58 IST" name="Payment_Page_Billing_Address_Test" finished-at="2023-11-15T10:58:58 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Billing_Address_Test -->
+        <test-method signature="Payment_Page_Shipping_Address_Test()[pri:42, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:58 IST" name="Payment_Page_Shipping_Address_Test" finished-at="2023-11-15T10:58:58 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Shipping_Address_Test -->
+        <test-method signature="Payment_Page_Final_Table_Test()[pri:43, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:58 IST" name="Payment_Page_Final_Table_Test" finished-at="2023-11-15T10:58:58 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Final_Table_Test -->
+        <test-method signature="Payment_Page_Order_Numberr_Test()[pri:44, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:58 IST" name="Payment_Page_Order_Numberr_Test" finished-at="2023-11-15T10:58:59 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Page_Order_Numberr_Test -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:Com.QA.Tests.PagesTest@4f25b795]" started-at="2023-11-15T10:58:59 IST" name="tear_down" finished-at="2023-11-15T10:59:01 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- Com.QA.Tests.PagesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
